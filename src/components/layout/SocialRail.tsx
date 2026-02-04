@@ -8,7 +8,7 @@ export function SocialRail() {
         href={siteConfig.links.github}
         target="_blank"
         rel="noreferrer"
-        className="rounded-lg border border-white/10 bg-white/5 p-2 text-zinc-200 backdrop-blur hover:bg-white/10 hover:text-white transition"
+        className="rounded-lg border border-violet-200 bg-violet-50/80 p-2 text-violet-600 backdrop-blur transition hover:bg-violet-100 hover:text-violet-900 dark:border-violet-500/20 dark:bg-white/5 dark:text-violet-300 dark:hover:bg-white/10 dark:hover:text-violet-100"
         aria-label="GitHub"
       >
         <Github size={18} />
@@ -17,15 +17,15 @@ export function SocialRail() {
         href={siteConfig.links.linkedin}
         target="_blank"
         rel="noreferrer"
-        className="rounded-lg border border-white/10 bg-white/5 p-2 text-zinc-200 backdrop-blur hover:bg-white/10 hover:text-white transition"
+        className="rounded-lg border border-violet-200 bg-violet-50/80 p-2 text-violet-600 backdrop-blur transition hover:bg-violet-100 hover:text-violet-900 dark:border-violet-500/20 dark:bg-white/5 dark:text-violet-300 dark:hover:bg-white/10 dark:hover:text-violet-100"
         aria-label="LinkedIn"
       >
         <Linkedin size={18} />
       </a>
 
-      <div className="mt-2 h-20 w-px bg-white/15" />
+      <div className="mt-2 h-20 w-px bg-violet-200 dark:bg-violet-500/30" />
 
-      <div className="select-none text-xs tracking-[0.25em] text-zinc-400 [writing-mode:vertical-rl] rotate-180">
+      <div className="select-none text-xs tracking-[0.25em] text-violet-600 [writing-mode:vertical-rl] rotate-180 dark:text-violet-400">
         FOLLOW&nbsp;ME
       </div>
     </div>

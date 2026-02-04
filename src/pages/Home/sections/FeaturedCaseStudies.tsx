@@ -26,8 +26,8 @@ export function FeaturedCaseStudies() {
   const navigate = useNavigate(); 
     return (
     <section id="featured" className="mt-32 scroll-mt-24">
-      <h2 className="text-2xl font-semibold text-white">Featured Case Studies</h2>
-      <p className="mt-2 text-zinc-400">
+      <h2 className="text-2xl font-semibold text-violet-800 dark:text-violet-400">Featured Case Studies</h2>
+      <p className="mt-2 text-violet-700 dark:text-violet-300">
         A selection of projects where data drove measurable business impact.
       </p>
 
@@ -42,17 +42,17 @@ export function FeaturedCaseStudies() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: i * 0.2, duration: 0.6 }}
           viewport={{ once: true }}
-            className="group cursor-pointer rounded-2xl bg-white/5 p-6 ring-1 ring-white/10 backdrop-blur transition hover:ring-accent/50 hover:-translate-y-1"
+            className="group cursor-pointer rounded-2xl bg-white p-6 ring-1 ring-violet-200 backdrop-blur transition hover:-translate-y-1 hover:ring-accent/50 dark:bg-white/5 dark:ring-violet-500/20 dark:hover:ring-accent/50"
           >
             <div className="text-xs uppercase tracking-wide text-accent/80">
               {study.tag}
             </div>
-            <div className="mt-3 text-lg font-semibold text-white">
+            <div className="mt-3 text-lg font-semibold text-violet-800 dark:text-violet-400">
               {study.title}
             </div>
-            <p className="mt-3 text-sm text-zinc-400">{study.description}</p>
+            <p className="mt-3 text-sm text-violet-800 dark:text-white">{study.description}</p>
 
-            <div className="mt-6 text-sm font-medium text-accent opacity-0 transition group-hover:opacity-100">
+            <div className="mt-6 text-sm font-medium text-violet-700 opacity-0 transition group-hover:opacity-100 dark:text-white">
               View case study →
             </div>
           </motion.div>

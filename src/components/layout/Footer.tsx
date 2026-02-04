@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="border-t border-white/10 mt-20 py-6 text-center text-sm text-zinc-500">
+    <footer className="mt-20 border-t border-violet-200 py-6 text-center text-sm text-violet-800 dark:border-violet-500/20 dark:text-white">
       © {new Date().getFullYear()} Pavansingh Thongar
     </footer>
   );

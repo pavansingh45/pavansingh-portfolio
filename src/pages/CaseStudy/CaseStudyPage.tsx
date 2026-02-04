@@ -7,11 +7,11 @@ export function CaseStudyPage() {
   return (
     <div className="mx-auto max-w-4xl px-6 py-20">
       {/* Title */}
-      <h1 className="text-4xl font-bold text-white capitalize">
+      <h1 className="text-4xl font-bold capitalize text-violet-700 dark:text-violet-400">
         {slug?.replaceAll("-", " ")}
       </h1>
 
-      <p className="mt-4 text-zinc-400">
+      <p className="mt-4 text-violet-900 dark:text-violet-200">
         A detailed breakdown of the business challenge, analytical approach,
         tools used, insights uncovered, and measurable business impact.
       </p>
@@ -19,15 +19,15 @@ export function CaseStudyPage() {
       {/* Back Button */}
       <button
         onClick={() => navigate("/")}
-        className="mt-6 inline-flex items-center gap-2 rounded-lg border border-white/10 px-4 py-2 text-sm text-zinc-300 hover:bg-white/5 transition"
+        className="mt-6 inline-flex items-center gap-2 rounded-lg border border-violet-200 px-4 py-2 text-sm text-violet-700 transition hover:bg-violet-50 dark:border-violet-500/20 dark:text-violet-400 dark:hover:bg-white/5"
       >
         ← Back to Portfolio
       </button>
 
       {/* Business Problem */}
       <section className="mt-12">
-        <h2 className="text-xl font-semibold text-white">Business Problem</h2>
-        <p className="mt-3 text-zinc-400 leading-relaxed">
+        <h2 className="text-xl font-semibold text-violet-700 dark:text-violet-400">Business Problem</h2>
+        <p className="mt-3 leading-relaxed text-violet-900 dark:text-violet-200">
           Describe the challenge faced by the business, what was not working,
           and why solving this problem mattered for performance, revenue, or
           efficiency.
@@ -36,8 +36,8 @@ export function CaseStudyPage() {
 
       {/* Data & Tools */}
       <section className="mt-12">
-        <h2 className="text-xl font-semibold text-white">Data & Tools Used</h2>
-        <ul className="mt-3 list-disc space-y-2 pl-6 text-zinc-400">
+        <h2 className="text-xl font-semibold text-violet-700 dark:text-violet-400">Data & Tools Used</h2>
+        <ul className="mt-3 list-disc space-y-2 pl-6 text-violet-900 dark:text-violet-200">
           <li>Data sources (databases, spreadsheets, APIs, etc.)</li>
           <li>Tools used (SQL, Python, Power BI, Excel, etc.)</li>
           <li>Any data cleaning or transformation steps</li>
@@ -46,8 +46,8 @@ export function CaseStudyPage() {
 
       {/* Analysis Approach */}
       <section className="mt-12">
-        <h2 className="text-xl font-semibold text-white">Analysis Approach</h2>
-        <p className="mt-3 text-zinc-400 leading-relaxed">
+        <h2 className="text-xl font-semibold text-violet-700 dark:text-violet-400">Analysis Approach</h2>
+        <p className="mt-3 leading-relaxed text-violet-900 dark:text-violet-200">
           Explain how you analyzed the data: trends, comparisons, KPIs,
           forecasting models, or segmentation methods used to extract insights.
         </p>
@@ -55,8 +55,8 @@ export function CaseStudyPage() {
 
       {/* Insights */}
       <section className="mt-12">
-        <h2 className="text-xl font-semibold text-white">Key Insights</h2>
-        <ul className="mt-3 list-disc space-y-2 pl-6 text-zinc-400">
+        <h2 className="text-xl font-semibold text-violet-700 dark:text-violet-400">Key Insights</h2>
+        <ul className="mt-3 list-disc space-y-2 pl-6 text-violet-900 dark:text-violet-200">
           <li>Insight #1 that revealed a business opportunity</li>
           <li>Insight #2 that identified inefficiencies or cost drivers</li>
           <li>Insight #3 that improved decision-making</li>
@@ -65,13 +65,13 @@ export function CaseStudyPage() {
 
       {/* Dashboard & Visuals */}
       <section className="mt-16">
-        <h2 className="text-xl font-semibold text-white">Dashboard & Visuals</h2>
-        <p className="mt-3 text-zinc-400">
+        <h2 className="text-xl font-semibold text-violet-700 dark:text-violet-400">Dashboard & Visuals</h2>
+        <p className="mt-3 text-violet-900 dark:text-violet-200">
           Key visualizations used to communicate insights and drive decisions.
         </p>
 
         <div className="mt-8 grid gap-6 md:grid-cols-2">
-          <div className="rounded-xl bg-white/5 p-4 ring-1 ring-white/10">
+          <div className="rounded-xl bg-white p-4 ring-1 ring-violet-200 dark:bg-white/5 dark:ring-violet-500/20">
             <img
               src="/images/marketing-funnel-dashboard.png"
               alt="Marketing Funnel Dashboard"
@@ -79,8 +79,8 @@ export function CaseStudyPage() {
             />
           </div>
 
-          <div className="rounded-xl bg-white/5 p-4 ring-1 ring-white/10">
-            <div className="h-48 rounded-lg bg-gradient-to-br from-white/5 to-white/10 flex items-center justify-center text-zinc-500 text-sm">
+          <div className="rounded-xl bg-violet-50/50 p-4 ring-1 ring-violet-200 dark:bg-white/5 dark:ring-violet-500/20">
+            <div className="flex h-48 items-center justify-center rounded-lg bg-gradient-to-br from-zinc-100 to-zinc-200 text-sm text-violet-700 dark:from-white/5 dark:to-white/10 dark:text-violet-400">
               Chart / KPI Visualization Placeholder
             </div>
           </div>
@@ -89,26 +89,26 @@ export function CaseStudyPage() {
 
       {/* Business Impact */}
       <section className="mt-12">
-        <h2 className="text-xl font-semibold text-white">Business Impact</h2>
-        <p className="mt-3 text-zinc-400 leading-relaxed">
+        <h2 className="text-xl font-semibold text-violet-700 dark:text-violet-400">Business Impact</h2>
+        <p className="mt-3 leading-relaxed text-violet-900 dark:text-violet-200">
           Highlight measurable improvements such as increased revenue,
           improved conversion rate, cost reduction, or time savings.
         </p>
       </section>
 
       {/* Metrics */}
-      <section className="mt-16 grid gap-6 rounded-2xl bg-white/5 p-8 ring-1 ring-white/10 md:grid-cols-3">
+      <section className="mt-16 grid gap-6 rounded-2xl bg-white p-8 ring-1 ring-violet-200 md:grid-cols-3 dark:bg-white/5 dark:ring-violet-500/20">
         <div>
-          <div className="text-sm text-zinc-400">Conversion Rate</div>
-          <div className="mt-1 text-2xl font-semibold text-white">+18%</div>
+          <div className="text-sm text-violet-700 dark:text-violet-400">Conversion Rate</div>
+          <div className="mt-1 text-2xl font-semibold text-violet-900 dark:text-violet-200">+18%</div>
         </div>
         <div>
-          <div className="text-sm text-zinc-400">Cost Reduction</div>
-          <div className="mt-1 text-2xl font-semibold text-white">-12%</div>
+          <div className="text-sm text-violet-700 dark:text-violet-400">Cost Reduction</div>
+          <div className="mt-1 text-2xl font-semibold text-violet-900 dark:text-violet-200">-12%</div>
         </div>
         <div>
-          <div className="text-sm text-zinc-400">Reporting Time</div>
-          <div className="mt-1 text-2xl font-semibold text-white">-30%</div>
+          <div className="text-sm text-violet-700 dark:text-violet-400">Reporting Time</div>
+          <div className="mt-1 text-2xl font-semibold text-violet-900 dark:text-violet-200">-30%</div>
         </div>
       </section>
 
@@ -116,14 +116,14 @@ export function CaseStudyPage() {
       <section className="mt-20 flex justify-between text-sm">
         <button
           onClick={() => navigate("/case-study/financial-variance-dashboard")}
-          className="text-accent hover:underline"
+          className="text-violet-700 hover:underline dark:text-violet-400"
         >
           ← Previous Case Study
         </button>
 
         <button
           onClick={() => navigate("/case-study/operations-performance-insights")}
-          className="text-accent hover:underline"
+          className="text-violet-700 hover:underline dark:text-violet-400"
         >
           Next Case Study →
         </button>

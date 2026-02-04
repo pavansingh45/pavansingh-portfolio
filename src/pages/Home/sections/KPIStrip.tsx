@@ -17,10 +17,10 @@ export function KPIStrip() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: i * 0.15, duration: 0.6 }}
           viewport={{ once: true }}
-          className="rounded-2xl bg-white/5 p-6 ring-1 ring-white/10 backdrop-blur hover:ring-accent/40 transition"
+          className="rounded-2xl bg-white p-6 ring-1 ring-violet-200 backdrop-blur transition hover:ring-accent/40 dark:bg-white/5 dark:ring-violet-500/20 dark:hover:ring-accent/40"
         >
-          <div className="text-sm text-zinc-400">{kpi.title}</div>
-          <div className="mt-2 text-lg font-semibold text-white">
+          <div className="text-sm text-violet-700 dark:text-violet-300">{kpi.title}</div>
+          <div className="mt-2 text-lg font-semibold text-violet-800 dark:text-violet-400">
             {kpi.value}
           </div>
         </motion.div>

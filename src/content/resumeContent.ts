@@ -5,7 +5,7 @@ export const resumeContent = {
     {
       company: "Allied American Agency",
       title: "Business Analyst",
-      dates: "Aug 2023 – Aug 2025",
+      dates: "Oct 2025 - Present",
       location: "",
       bullets: [
         "Performed data research and gathered business requirements for analysis.",
@@ -19,7 +19,7 @@ export const resumeContent = {
     {
       company: "Radiant Infosystems Pvt. Ltd.",
       title: "Business Analyst",
-      dates: "",
+      dates: "Jan 2022 - Jul 2023",
       location: "Bengaluru, India",
       bullets: [
         "Built Power BI dashboards to track marketing funnels and customer retention KPIs.",
@@ -32,7 +32,7 @@ export const resumeContent = {
     {
       company: "Sreekaram Enterprises",
       title: "Junior Business Analyst",
-      dates: "",
+      dates: "Jan 2021 - Dec 2021",
       location: "Hyderabad, India",
       bullets: [
         "Automated reports to track product performance, improving campaign ROI tracking.",

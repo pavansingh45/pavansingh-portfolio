@@ -7,7 +7,7 @@ export const siteConfig = {
     links: {
       linkedin: "https://www.linkedin.com/in/pavansinghthongar/",
       github: "https://github.com/pavansingh45",
-      email: "pavanthongar@gmail.com",
+      email: "thongarpavansingh@gmail.com",
       phone: "+1 (832) 888-3267",
     },
   };

@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+/* Class-based dark mode for Tailwind v4 (toggle with .dark on html) */
+@custom-variant dark (&:where(.dark, .dark *));
+
 html, body, #root {
   height: 100%;
+}
+
+/* Default link color; buttons and nav use explicit [color] so they are not inherited */
+a {
+  color: inherit;
+}
+/* Force white text on dark primary buttons (override inherit) */
+a[class*="bg-violet-900"],
+a[class*="bg-accent"] {
+  color: #fff !important;
 }
