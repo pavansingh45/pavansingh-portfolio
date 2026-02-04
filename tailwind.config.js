@@ -6,8 +6,8 @@ export default {
       colors: {
         midnight: "#0b1120",
         panel: "#111827",
-        accent: "#22d3ee",
-        accentSoft: "#67e8f9",
+        accent: "#3b82f6",
+        accentSoft: "#60a5fa",
       },
     },
   },

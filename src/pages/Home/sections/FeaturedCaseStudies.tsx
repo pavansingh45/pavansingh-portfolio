@@ -25,7 +25,7 @@ const caseStudies = [
 export function FeaturedCaseStudies() {
   const navigate = useNavigate(); 
     return (
-    <section className="mt-32">
+    <section id="featured" className="mt-32 scroll-mt-24">
       <h2 className="text-2xl font-semibold text-white">Featured Case Studies</h2>
       <p className="mt-2 text-zinc-400">
         A selection of projects where data drove measurable business impact.

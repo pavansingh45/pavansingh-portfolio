@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { SiteLayout } from "../components/layout/SiteLayout";
 import { HomePage } from "../pages/Home/HomePage";
 import { CaseStudyPage } from "../pages/CaseStudy/CaseStudyPage";
@@ -9,6 +9,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/case-study/:slug" element={<CaseStudyPage />} />
+        <Route path="/contact" element={<Navigate to="/?section=contact" replace />} />
       </Routes>
     </SiteLayout>
   );

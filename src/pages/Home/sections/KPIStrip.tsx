@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const kpis = [
-  { title: "Analytics Focus", value: "Business & Data Insights" },
+  { title: "Experience", value: "2.5+ years" },
+  { title: "Domains", value: "Marketing • Finance • Operations" },
   { title: "Core Tools", value: "SQL • Python • Power BI • Excel" },
-  { title: "Specialty", value: "Dashboards, Forecasting, KPIs" },
-  { title: "Approach", value: "Turning data into decisions" },
+  { title: "Strengths", value: "Dashboards • KPIs • Forecasting" },
 ];
 
 export function KPIStrip() {
